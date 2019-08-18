@@ -11,7 +11,7 @@ while True: #Bir döngü başlatıyoruz.
 	else: #Eğer gece 12'yi gösteriyorsa;
 		break #Döngünün içerisinden çıkıp aşağıdaki kodlara çalışmasını sağladık.
 
-browser_path = "C:\\chromedriver.exe" #Chrome sürücüsünün dosya yolunu browser_path değişkenine atadık.
+browser_path = "\chromedriver.exe" #Chrome sürücüsünün dosya yolunu browser_path değişkenine atadık.
 
 browser = webdriver.Chrome(browser_path) #Burda browser değişkenine browser_path'de atadığımız dosya yolunu çalıştırmasını istedik.
 browser.get("https://sonuc.osym.gov.tr/") #.get() fonksiyonu ile ÖSYM'nin sonuçları açıkladığı siteye yönlendirdik.
