@@ -1,4 +1,3 @@
-#CheckYKS Programmed By ErdiBgr™
 import datetime #Datime kütüphanesini projeye dahil ettik
 from selenium import webdriver #Selenium kütüphanesinden webdriver modülünü projeye dahil ettik.
 
